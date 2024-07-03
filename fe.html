@@ -1,0 +1,1044 @@
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>SELJ - Secretaria de Esportes</title>
+
+    <!-- Meta -->
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta name="author" content="Prodesp" />
+    <meta name="description" content="Secretaria Escolar Digital SP - Secretaria da Educação do Estado de São Paulo" />
+    <meta name="keywords" content="Secretaria Escolar Digital, sed, see, governo de são paulo" />
+
+    <!-- CSS -->
+
+    <link type="text/css" media="all" href="http://siccel.selj.sp.gov.br/siccel/Content/V2/css/estilo.css" rel="stylesheet" title="cor" />
+    <link type="text/css" media="all" href="http://siccel.selj.sp.gov.br/siccel/Content/V2/css/contraste.css" rel="alternate stylesheet" title="cinza" />
+    <link rel="stylesheet" href="http://siccel.selj.sp.gov.br/siccel/Content/V2/css/print.css" type="text/css" media="print" />
+
+    <!-- Jquery -->
+    <script src="/siccel/Scripts/jquery-1.7.1.js"></script>
+<script src="/siccel/Scripts/jquery-ui-1.8.20.js"></script>
+<script src="/siccel/Scripts/superfish.js"></script>
+<script src="/siccel/Scripts/ajaxupload.js"></script>
+
+
+    <link href="/siccel/Content/jquery-ui.css" rel="stylesheet"/>
+
+
+    <!-- Jquery Globalize -->
+    <script src="/siccel/Scripts/globalize.js"></script>
+<script src="/siccel/Scripts/globalize.culture.pt-BR.js"></script>
+
+
+    <!-- Jquery Validate-->
+    <script src="/siccel/Scripts/jquery.unobtrusive-ajax.js"></script>
+<script src="/siccel/Scripts/jquery.validate.js"></script>
+<script src="/siccel/Scripts/jquery.validate.unobtrusive.js"></script>
+
+
+    <!-- Jquery MaskInput-->
+    <script src="/siccel/Scripts/jquery.maskedinput-1.3.js"></script>
+
+
+
+    <!-- alphanumeric validate js -->
+    <script src="/siccel/Scripts/jquery.alphanumeric.js"></script>
+
+
+    <!-- Util js -->
+    <script src="/siccel/Scripts/util.js"></script>
+
+
+    <script type="text/javascript">
+        util.domain = 'http://siccel.selj.sp.gov.br/siccel';
+    </script>
+
+    <!-- Toolbox Usabilidade -->
+    <script src="http://siccel.selj.sp.gov.br/siccel/Content/V2/js/toolbox.js" type="text/javascript"></script>
+
+    <link href="/siccel/Content/jquery.Jcrop.css" rel="stylesheet"/>
+
+
+    <!-- Framework Bootstrap Customizado -->
+    <link type="text/css" media="all" href="http://siccel.selj.sp.gov.br/siccel/Content/V2/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <script type="text/javascript" src="http://siccel.selj.sp.gov.br/siccel/Content/V2/bootstrap/js/bootstrap.min.js"></script>
+
+</head>
+
+<body class="home">
+
+    <!-- Habilitar JavaScript -->
+    <noscript>
+        <p>O javascript de seu navegador está desabilitado. Favor habilitá-lo para acessar as funcionalidades deste site.</p>
+    </noscript>
+
+    <!-- Acessibilidade -->
+    <a class="esconder" href="#content">Ir para o conteúdo</a>
+
+    <!-- Conteudo geral -->
+    <div id="global">
+
+        <!-- Barra do Governo -->
+        <div id="barra_governo">
+            <script type="text/javascript" src="http://siccel.selj.sp.gov.br/siccel/Content/V2/js/barra_governo.js"></script>
+        </div>
+
+        <header>
+
+            <!-- Logo -->
+            <a href="http://siccel.selj.sp.gov.br/siccel" id="logo" title="SELJ - Tecla de atalho (1)" accesskey="1">Início</a>
+        </header>
+
+
+        <!-- Content -->
+        <div id="content">
+
+            
+
+
+
+<form action="/siccel/Municipio/Cadastrar" id="municipio_novo" method="post">    <p class="campototal" style="text-align:center"><label class="tit2">Cadastro de Munic&#237;pios</label></p>
+    <p class="nomecampo">
+        <label for="Municipio_id">Munic&#237;pio *</label>
+    </p>
+    <p class="campo">
+        <select class="input-large select" data-val="true" data-val-number="The field Município * must be a number." data-val-required="Municipio é obrigatório" id="Municipio_id" name="Municipio.id"><option value="">--- Selecione ---</option>
+<option value="506">Adamantina</option>
+<option value="429">Adolfo</option>
+<option value="195">Agua&#237;</option>
+<option value="196">&#193;guas da Prata</option>
+<option value="159">&#193;guas de Lind&#243;ia</option>
+<option value="562">&#193;guas de Santa B&#225;rbara</option>
+<option value="116">&#193;guas de S&#227;o Pedro</option>
+<option value="139">Agudos</option>
+<option value="568">Alambari</option>
+<option value="544">Alfredo Marcondes</option>
+<option value="259">Altair</option>
+<option value="294">Altin&#243;polis</option>
+<option value="333">Alto Alegre</option>
+<option value="629">Alum&#237;nio</option>
+<option value="416">&#193;lvares Florence</option>
+<option value="545">&#193;lvares Machado</option>
+<option value="492">&#193;lvaro de Carvalho</option>
+<option value="493">Alvinl&#226;ndia</option>
+<option value="211">Americana</option>
+<option value="241">Am&#233;rico Brasiliense</option>
+<option value="417">Am&#233;rico de Campos</option>
+<option value="160">Amparo</option>
+<option value="126">Anal&#226;ndia</option>
+<option value="313">Andradina</option>
+<option value="569">Angatuba</option>
+<option value="88">Anhembi</option>
+<option value="546">Anhumas</option>
+<option value="46">Aparecida</option>
+<option value="407">Aparecida d’Oeste</option>
+<option value="576">Apia&#237;</option>
+<option value="630">Ara&#231;ariguama</option>
+<option value="340">Ara&#231;atuba</option>
+<option value="631">Ara&#231;oiaba da Serra</option>
+<option value="272">Aramina</option>
+<option value="563">Arandu</option>
+<option value="37">Arape&#237;</option>
+<option value="242">Araraquara</option>
+<option value="179">Araras</option>
+<option value="484">Arco-&#205;ris</option>
+<option value="140">Arealva</option>
+<option value="38">Areias</option>
+<option value="89">Arei&#243;polis</option>
+<option value="358">Ariranha</option>
+<option value="212">Artur Nogueira</option>
+<option value="61">Aruj&#225;</option>
+<option value="384">Asp&#225;sia</option>
+<option value="450">Assis</option>
+<option value="170">Atibaia</option>
+<option value="341">Auriflama</option>
+<option value="141">Ava&#237;</option>
+<option value="334">Avanhandava</option>
+<option value="564">Avar&#233;</option>
+<option value="430">Bady Bassit</option>
+<option value="142">Balbinos</option>
+<option value="431">B&#225;lsamo</option>
+<option value="39">Bananal</option>
+<option value="577">Bar&#227;o de Antonina</option>
+<option value="335">Barbosa</option>
+<option value="98">Bariri</option>
+<option value="99">Barra Bonita</option>
+<option value="578">Barra do Chap&#233;u</option>
+<option value="601">Barra do Turvo</option>
+<option value="267">Barretos</option>
+<option value="302">Barrinha</option>
+<option value="1">Barueri</option>
+<option value="485">Bastos</option>
+<option value="295">Batatais</option>
+<option value="143">Bauru</option>
+<option value="252">Bebedouro</option>
+<option value="342">Bento de Abreu</option>
+<option value="462">Bernardino de Campos</option>
+<option value="27">Bertioga</option>
+<option value="322">Bilac</option>
+<option value="323">Birigui</option>
+<option value="62">Biritiba-Mirim</option>
+<option value="243">Boa Esperan&#231;a do Sul</option>
+<option value="100">Bocaina</option>
+<option value="90">Bofete</option>
+<option value="614">Boituva</option>
+<option value="171">Bom Jesus dos Perd&#245;es</option>
+<option value="579">Bom Sucesso de Itarar&#233;</option>
+<option value="451">Bor&#225;</option>
+<option value="101">Borac&#233;ia</option>
+<option value="232">Borborema</option>
+<option value="144">Borebi</option>
+<option value="91">Botucatu</option>
+<option value="172">Bragan&#231;a Paulista</option>
+<option value="336">Bra&#250;na</option>
+<option value="343">Brejo Alegre</option>
+<option value="296">Brodowski</option>
+<option value="127">Brotas</option>
+<option value="580">Buri</option>
+<option value="324">Buritama</option>
+<option value="273">Buritizal</option>
+<option value="145">Cabr&#225;lia Paulista</option>
+<option value="632">Cabre&#250;va</option>
+<option value="70">Ca&#231;apava</option>
+<option value="47">Cachoeira Paulista</option>
+<option value="201">Caconde</option>
+<option value="107">Cafel&#226;ndia</option>
+<option value="547">Caiabu</option>
+<option value="55">Caieiras</option>
+<option value="530">Caiu&#225;</option>
+<option value="56">Cajamar</option>
+<option value="602">Cajati</option>
+<option value="260">Cajobi</option>
+<option value="297">Cajuru</option>
+<option value="570">Campina do Monte Alegre</option>
+<option value="213">Campinas</option>
+<option value="596">Campo Limpo Paulista</option>
+<option value="71">Campos do Jord&#227;o</option>
+<option value="463">Campos Novos Paulista</option>
+<option value="603">Canan&#233;ia</option>
+<option value="48">Canas</option>
+<option value="452">C&#226;ndido Mota</option>
+<option value="233">C&#226;ndido Rodrigues</option>
+<option value="464">Canitar</option>
+<option value="581">Cap&#227;o Bonito</option>
+<option value="615">Capela do Alto</option>
+<option value="117">Capivari</option>
+<option value="33">Caraguatatuba</option>
+<option value="2">Carapicu&#237;ba</option>
+<option value="418">Cardoso</option>
+<option value="202">Casa Branca</option>
+<option value="298">C&#225;ssia dos Coqueiros</option>
+<option value="314">Castilho</option>
+<option value="359">Catanduva</option>
+<option value="360">Catigu&#225;</option>
+<option value="432">Cedral</option>
+<option value="565">Cerqueira Cesar</option>
+<option value="621">Cerquilho</option>
+<option value="616">Ces&#225;rio Lange</option>
+<option value="118">Charqueada</option>
+<option value="465">Chavantes</option>
+<option value="325">Clementina</option>
+<option value="268">Colina</option>
+<option value="269">Col&#244;mbia</option>
+<option value="180">Conchal</option>
+<option value="622">Conchas</option>
+<option value="190">Cordeir&#243;polis</option>
+<option value="326">Coroados</option>
+<option value="476">Coronel Macedo</option>
+<option value="191">Corumbata&#237;</option>
+<option value="214">Cosm&#243;polis</option>
+<option value="419">Cosmorama</option>
+<option value="3">Cotia</option>
+<option value="303">Cravinhos</option>
+<option value="284">Cristais Paulista</option>
+<option value="453">Cruz&#225;lia</option>
+<option value="40">Cruzeiro</option>
+<option value="28">Cubat&#227;o</option>
+<option value="49">Cunha</option>
+<option value="128">Descalvado</option>
+<option value="14">Diadema</option>
+<option value="385">Dirce Reis</option>
+<option value="203">Divinol&#226;ndia</option>
+<option value="234">Dobrada</option>
+<option value="102">Dois C&#243;rregos</option>
+<option value="386">Dolcin&#243;polis</option>
+<option value="129">Dourado</option>
+<option value="514">Dracena</option>
+<option value="146">Duartina</option>
+<option value="304">Dumont</option>
+<option value="494">Echapor&#227;</option>
+<option value="604">Eldorado</option>
+<option value="215">Elias Fausto</option>
+<option value="361">Elisi&#225;rio</option>
+<option value="261">Emba&#250;ba</option>
+<option value="4">Embu das Artes</option>
+<option value="5">Embu-Gua&#231;u</option>
+<option value="531">Emilian&#243;polis</option>
+<option value="216">Engenheiro Coelho</option>
+<option value="197">Espirito Santo do Pinhal</option>
+<option value="466">Esp&#237;rito Santo do Turvo</option>
+<option value="184">Estiva Gerbi</option>
+<option value="374">Estrela d’Oeste</option>
+<option value="548">Estrela do Norte</option>
+<option value="532">Euclides da Cunha Paulista</option>
+<option value="477">Fartura</option>
+<option value="235">Fernando Prestes</option>
+<option value="375">Fernand&#243;polis</option>
+<option value="495">Fern&#227;o</option>
+<option value="63">Ferraz de Vasconcelos</option>
+<option value="507">Flora Rica</option>
+<option value="420">Floreal</option>
+<option value="508">Fl&#243;rida Paulista</option>
+<option value="454">Flor&#237;nea</option>
+<option value="285">Franca</option>
+<option value="57">Francisco Morato</option>
+<option value="58">Franco da Rocha</option>
+<option value="327">Gabriel Monteiro</option>
+<option value="496">G&#225;lia</option>
+<option value="497">Gar&#231;a</option>
+<option value="344">Gast&#227;o Vidigal</option>
+<option value="244">Gavi&#227;o Peixoto</option>
+<option value="345">General Salgado</option>
+<option value="108">Getulina</option>
+<option value="328">Glic&#233;rio</option>
+<option value="109">Guai&#231;ara</option>
+<option value="110">Guaimb&#234;</option>
+<option value="270">Gua&#237;ra</option>
+<option value="433">Guapia&#231;u</option>
+<option value="582">Guapiara</option>
+<option value="274">Guar&#225;</option>
+<option value="315">Guara&#231;a&#237;</option>
+<option value="262">Guaraci</option>
+<option value="376">Guarani d’Oeste</option>
+<option value="111">Guarant&#227;</option>
+<option value="346">Guararapes</option>
+<option value="64">Guararema</option>
+<option value="50">Guaratinguet&#225;</option>
+<option value="571">Guare&#237;</option>
+<option value="226">Guariba</option>
+<option value="29">Guaruj&#225;</option>
+<option value="59">Guarulhos</option>
+<option value="245">Guatapar&#225;</option>
+<option value="347">Guzol&#226;ndia</option>
+<option value="486">Hercul&#226;ndia</option>
+<option value="185">Holambra</option>
+<option value="217">Hortol&#226;ndia</option>
+<option value="147">Iacanga</option>
+<option value="487">Iacri</option>
+<option value="566">Iaras</option>
+<option value="130">Ibat&#233;</option>
+<option value="362">Ibir&#225;</option>
+<option value="467">Ibirarema</option>
+<option value="236">Ibitinga</option>
+<option value="633">Ibiuna</option>
+<option value="263">Icem</option>
+<option value="549">Iep&#234;</option>
+<option value="103">Igara&#231;u do Tiet&#234;</option>
+<option value="275">Igarapava</option>
+<option value="80">Igarat&#225;</option>
+<option value="605">Iguape</option>
+<option value="606">Ilha Comprida</option>
+<option value="348">Ilha Solteira</option>
+<option value="34">Ilhabela</option>
+<option value="218">Indaiatuba</option>
+<option value="550">Indiana</option>
+<option value="377">Indiapor&#227;</option>
+<option value="524">In&#250;bia Paulista</option>
+<option value="468">Ipaussu</option>
+<option value="617">Iper&#243;</option>
+<option value="192">Ipe&#250;na</option>
+<option value="434">Ipigu&#225;</option>
+<option value="607">Iporanga</option>
+<option value="278">Ipu&#227;</option>
+<option value="181">Iracem&#225;polis</option>
+<option value="363">Irapu&#227;</option>
+<option value="509">Irapuru</option>
+<option value="583">Itaber&#225;</option>
+<option value="567">Ita&#237;</option>
+<option value="364">Itajobi</option>
+<option value="104">Itaju</option>
+<option value="23">Itanha&#233;m</option>
+<option value="584">Itaoca</option>
+<option value="6">Itapecerica da Serra</option>
+<option value="572">Itapetininga</option>
+<option value="585">Itapeva</option>
+<option value="7">Itapevi</option>
+<option value="186">Itapira</option>
+<option value="586">Itapirapu&#227; Paulista</option>
+<option value="237">It&#225;polis</option>
+<option value="587">Itaporanga</option>
+<option value="105">Itapu&#237;</option>
+<option value="316">Itapura</option>
+<option value="65">Itaquaquecetuba</option>
+<option value="588">Itarar&#233;</option>
+<option value="24">Itariri</option>
+<option value="177">Itatiba</option>
+<option value="92">Itatinga</option>
+<option value="131">Itirapina</option>
+<option value="286">Itirapu&#227;</option>
+<option value="204">Itobi</option>
+<option value="634">Itu</option>
+<option value="597">Itupeva</option>
+<option value="276">Ituverava</option>
+<option value="271">Jaborandi</option>
+<option value="227">Jaboticabal</option>
+<option value="81">Jacare&#237;</option>
+<option value="435">Jaci</option>
+<option value="608">Jacupiranga</option>
+<option value="161">Jaguari&#250;na</option>
+<option value="387">Jales</option>
+<option value="82">Jambeiro</option>
+<option value="8">Jandira</option>
+<option value="305">Jardin&#243;polis</option>
+<option value="598">Jarinu</option>
+<option value="97">Jau</option>
+<option value="287">Jeriquara</option>
+<option value="173">Joan&#243;polis</option>
+<option value="551">Jo&#227;o Ramalho</option>
+<option value="436">Jos&#233; Bonif&#225;cio</option>
+<option value="498">J&#250;lio Mesquita</option>
+<option value="623">Jumirim</option>
+<option value="599">Jundia&#237;</option>
+<option value="515">Junqueir&#243;polis</option>
+<option value="609">Juqui&#225;</option>
+<option value="9">Juquitiba</option>
+<option value="51">Lagoinha</option>
+<option value="624">Laranjal Paulista</option>
+<option value="317">Lav&#237;nia</option>
+<option value="41">Lavrinhas</option>
+<option value="182">Leme</option>
+<option value="148">Len&#231;&#243;is Paulista</option>
+<option value="183">Limeira</option>
+<option value="162">Lind&#243;ia</option>
+<option value="112">Lins</option>
+<option value="52">Lorena</option>
+<option value="329">Lourdes</option>
+<option value="600">Louveira</option>
+<option value="510">Luc&#233;lia</option>
+<option value="149">Lucian&#243;polis</option>
+<option value="306">Luiz Antonio</option>
+<option value="337">Luizi&#226;nia</option>
+<option value="499">Lup&#233;rcio</option>
+<option value="455">Lut&#233;cia</option>
+<option value="150">Macatuba</option>
+<option value="421">Macaubal</option>
+<option value="378">Maced&#244;nia</option>
+<option value="349">Magda</option>
+<option value="635">Mairinque</option>
+<option value="60">Mairipor&#227;</option>
+<option value="478">Manduri</option>
+<option value="533">Marab&#225; Paulista</option>
+<option value="456">Maraca&#237;</option>
+<option value="365">Marapoama</option>
+<option value="511">Mari&#225;polis</option>
+<option value="500">Mar&#237;lia</option>
+<option value="408">Marin&#243;polis</option>
+<option value="552">Martin&#243;polis</option>
+<option value="238">Mat&#227;o</option>
+<option value="15">Mau&#225;</option>
+<option value="437">Mendon&#231;a</option>
+<option value="379">Meridiano</option>
+<option value="388">Mes&#243;polis</option>
+<option value="277">Miguel&#243;polis</option>
+<option value="106">Mineiros do Tiet&#234;</option>
+<option value="380">Mira Estrela</option>
+<option value="610">Miracatu</option>
+<option value="318">Mirand&#243;polis</option>
+<option value="534">Mirante do Paranapanema</option>
+<option value="438">Mirassol</option>
+<option value="439">Mirassol&#226;ndia</option>
+<option value="205">Mococa</option>
+<option value="66">Mogi das Cruzes</option>
+<option value="187">Mogi-Gua&#231;u</option>
+<option value="188">Mogi-Mirim</option>
+<option value="119">Mombuca</option>
+<option value="422">Mon&#231;&#245;es</option>
+<option value="25">Mongagu&#225;</option>
+<option value="163">Monte Alegre do Sul</option>
+<option value="228">Monte Alto</option>
+<option value="399">Monte Apraz&#237;vel</option>
+<option value="253">Monte Azul Paulista</option>
+<option value="516">Monte Castelo</option>
+<option value="219">Monte Mor</option>
+<option value="83">Monteiro Lobato</option>
+<option value="279">Morro Agudo</option>
+<option value="178">Morungaba</option>
+<option value="246">Motuca</option>
+<option value="319">Murutinga do Sul</option>
+<option value="553">Nantes</option>
+<option value="554">Narandiba</option>
+<option value="72">Natividade da Serra</option>
+<option value="174">Nazar&#233; Paulista</option>
+<option value="400">Neves Paulista</option>
+<option value="423">Nhandeara</option>
+<option value="401">Nipo&#227;</option>
+<option value="440">Nova Alian&#231;a</option>
+<option value="589">Nova Campina</option>
+<option value="409">Nova Cana&#227; Paulista</option>
+<option value="350">Nova Castilho</option>
+<option value="247">Nova Europa</option>
+<option value="441">Nova Granada</option>
+<option value="517">Nova Guataporanga</option>
+<option value="320">Nova Independ&#234;ncia</option>
+<option value="351">Nova Luzit&#226;nia</option>
+<option value="220">Nova Odessa</option>
+<option value="366">Novais</option>
+<option value="367">Novo Horizonte</option>
+<option value="280">Nuporanga</option>
+<option value="501">Ocau&#231;u</option>
+<option value="469">&#211;leo</option>
+<option value="264">Ol&#237;mpia</option>
+<option value="442">Onda Verde</option>
+<option value="502">Oriente</option>
+<option value="443">Orindiuva</option>
+<option value="281">Orl&#226;ndia</option>
+<option value="10">Osasco</option>
+<option value="503">Oscar Bressane</option>
+<option value="525">Osvaldo Cruz</option>
+<option value="470">Ourinhos</option>
+<option value="518">Ouro Verde</option>
+<option value="381">Ouroeste</option>
+<option value="512">Pacaembu</option>
+<option value="444">Palestina</option>
+<option value="368">Palmares Paulista</option>
+<option value="389">Palmeira d’Oeste</option>
+<option value="457">Palmital</option>
+<option value="519">Panorama</option>
+<option value="458">Paragua&#231;u Paulista</option>
+<option value="84">Paraibuna</option>
+<option value="369">Para&#237;so</option>
+<option value="573">Paranapanema</option>
+<option value="390">Paranapu&#227;</option>
+<option value="526">Parapu&#227;</option>
+<option value="93">Pardinho</option>
+<option value="611">Pariquera-A&#231;u</option>
+<option value="424">Parisi</option>
+<option value="288">Patroc&#237;nio Paulista</option>
+<option value="520">Paulic&#233;ia</option>
+<option value="221">Paul&#237;nia</option>
+<option value="151">Paulist&#226;nia</option>
+<option value="265">Paulo de Faria</option>
+<option value="152">Pederneiras</option>
+<option value="164">Pedra Bela</option>
+<option value="382">Pedran&#243;polis</option>
+<option value="289">Pedregulho</option>
+<option value="165">Pedreira</option>
+<option value="459">Pedrinhas Paulista</option>
+<option value="26">Pedro de Toledo</option>
+<option value="338">Pen&#225;polis</option>
+<option value="352">Pereira Barreto</option>
+<option value="625">Pereiras</option>
+<option value="22">Peru&#237;be</option>
+<option value="330">Piacatu</option>
+<option value="636">Piedade</option>
+<option value="637">Pilar do Sul</option>
+<option value="73">Pindamonhangaba</option>
+<option value="370">Pindorama</option>
+<option value="166">Pinhalzinho</option>
+<option value="535">Piquerobi</option>
+<option value="42">Piquete</option>
+<option value="175">Piracaia</option>
+<option value="120">Piracicaba</option>
+<option value="479">Piraju</option>
+<option value="153">Piraju&#237;</option>
+<option value="254">Pirangi</option>
+<option value="638">Pirapora do Bom Jesus</option>
+<option value="555">Pirap&#243;zinho</option>
+<option value="132">Pirassununga</option>
+<option value="154">Piratininga</option>
+<option value="255">Pitangueiras</option>
+<option value="402">Planalto</option>
+<option value="460">Platina</option>
+<option value="67">Po&#225;</option>
+<option value="403">Poloni</option>
+<option value="504">Pomp&#233;ia</option>
+<option value="113">Pongai</option>
+<option value="307">Pontal</option>
+<option value="391">Pontalinda</option>
+<option value="425">Pontes Gestal</option>
+<option value="392">Populina</option>
+<option value="618">Porangaba</option>
+<option value="626">Porto Feliz</option>
+<option value="133">Porto Ferreira</option>
+<option value="53">Potim</option>
+<option value="445">Potirendaba</option>
+<option value="513">Pracinha</option>
+<option value="229">Prad&#243;polis</option>
+<option value="30">Praia Grande</option>
+<option value="94">Prat&#226;nia</option>
+<option value="155">Presidente Alves</option>
+<option value="536">Presidente Bernardes</option>
+<option value="537">Presidente Epit&#225;cio</option>
+<option value="556">Presidente Prudente</option>
+<option value="538">Presidente Venceslau</option>
+<option value="114">Promiss&#227;o</option>
+<option value="619">Quadra</option>
+<option value="488">Quat&#225;</option>
+<option value="489">Queiroz</option>
+<option value="43">Queluz</option>
+<option value="490">Quintana</option>
+<option value="627">Rafard</option>
+<option value="557">Rancharia</option>
+<option value="74">Reden&#231;&#227;o da Serra</option>
+<option value="558">Regente Feij&#243;</option>
+<option value="156">Regin&#243;polis</option>
+<option value="612">Registro</option>
+<option value="290">Restinga</option>
+<option value="590">Ribeira</option>
+<option value="134">Ribeir&#227;o Bonito</option>
+<option value="591">Ribeir&#227;o Branco</option>
+<option value="291">Ribeir&#227;o Corrente</option>
+<option value="471">Ribeir&#227;o do Sul</option>
+<option value="539">Ribeir&#227;o dos &#205;ndios</option>
+<option value="592">Ribeir&#227;o Grande</option>
+<option value="16">Ribeir&#227;o Pires</option>
+<option value="308">Ribeir&#227;o Preto</option>
+<option value="292">Rifaina</option>
+<option value="248">Rinc&#227;o</option>
+<option value="527">Rin&#243;polis</option>
+<option value="193">Rio Claro</option>
+<option value="121">Rio das Pedras</option>
+<option value="17">Rio Grande da Serra</option>
+<option value="426">Riol&#226;ndia</option>
+<option value="593">Riversul</option>
+<option value="540">Rosana</option>
+<option value="54">Roseira</option>
+<option value="353">Rubi&#225;cea</option>
+<option value="410">Rubin&#233;ia</option>
+<option value="115">Sabino</option>
+<option value="528">Sagres</option>
+<option value="446">Sales</option>
+<option value="282">Sales Oliveira</option>
+<option value="68">Sales&#243;polis</option>
+<option value="529">Salmour&#227;o</option>
+<option value="122">Saltinho</option>
+<option value="639">Salto</option>
+<option value="640">Salto de Pirapora</option>
+<option value="472">Salto Grande</option>
+<option value="541">Sandovalina</option>
+<option value="371">Santa Ad&#233;lia</option>
+<option value="393">Santa Albertina</option>
+<option value="123">Santa B&#225;rbara d’Oeste</option>
+<option value="85">Santa Branca</option>
+<option value="411">Santa Clara d’Oeste</option>
+<option value="135">Santa Cruz da Concei&#231;&#227;o</option>
+<option value="299">Santa Cruz da Esperan&#231;a</option>
+<option value="206">Santa Cruz das Palmeiras</option>
+<option value="473">Santa Cruz do Rio Pardo</option>
+<option value="239">Santa Ernestina</option>
+<option value="412">Santa F&#233; do Sul</option>
+<option value="194">Santa Gertrudes</option>
+<option value="86">Santa Isabel</option>
+<option value="249">Santa L&#250;cia</option>
+<option value="124">Santa Maria da Serra</option>
+<option value="521">Santa Mercedes</option>
+<option value="413">Santa Rita d’Oeste</option>
+<option value="136">Santa Rita do Passa Quatro</option>
+<option value="309">Santa Rosa do Viterbo</option>
+<option value="394">Santa Salete</option>
+<option value="414">Santana da Ponte Pensa</option>
+<option value="641">Santana de Parna&#237;ba</option>
+<option value="542">Santo Anast&#225;cio</option>
+<option value="18">Santo Andr&#233;</option>
+<option value="300">Santo Antonio da Alegria</option>
+<option value="189">Santo Antonio da Posse</option>
+<option value="354">Santo Antonio do Aracangu&#225;</option>
+<option value="198">Santo Antonio do Jardim</option>
+<option value="75">Santo Antonio do Pinhal</option>
+<option value="559">Santo Expedito</option>
+<option value="339">Sant&#243;polis do Aguape&#237;</option>
+<option value="31">Santos</option>
+<option value="76">S&#227;o Bento do Sapuca&#237;</option>
+<option value="19">S&#227;o Bernardo do Campo</option>
+<option value="20">S&#227;o Caetano do Sul</option>
+<option value="137">S&#227;o Carlos</option>
+<option value="395">S&#227;o Francisco</option>
+<option value="199">S&#227;o Jo&#227;o da Boa Vista</option>
+<option value="383">S&#227;o Jo&#227;o das Duas Pontes</option>
+<option value="355">S&#227;o Jo&#227;o de Iracema</option>
+<option value="522">S&#227;o Jo&#227;o do Pau-d’Alho</option>
+<option value="283">S&#227;o Joaquim da Barra</option>
+<option value="293">S&#227;o Jos&#233; da Bela Vista</option>
+<option value="44">S&#227;o Jos&#233; do Barreiro</option>
+<option value="207">S&#227;o Jos&#233; do Rio Pardo</option>
+<option value="447">S&#227;o Jos&#233; do Rio Preto</option>
+<option value="87">S&#227;o Jos&#233; dos Campos</option>
+<option value="11">S&#227;o Louren&#231;o da Serra</option>
+<option value="77">S&#227;o Luiz do Paraitinga</option>
+<option value="95">S&#227;o Manuel</option>
+<option value="574">S&#227;o Miguel Arcanjo</option>
+<option value="21">S&#227;o Paulo</option>
+<option value="125">S&#227;o Pedro</option>
+<option value="474">S&#227;o Pedro do Turvo</option>
+<option value="642">S&#227;o Roque</option>
+<option value="35">S&#227;o Sebasti&#227;o</option>
+<option value="208">S&#227;o Sebasti&#227;o da Grama</option>
+<option value="310">S&#227;o Sim&#227;o</option>
+<option value="32">S&#227;o Vicente</option>
+<option value="575">Sarapu&#237;</option>
+<option value="480">Sarutai&#225;</option>
+<option value="404">Sebastian&#243;polis do Sul</option>
+<option value="301">Serra Azul</option>
+<option value="167">Serra Negra</option>
+<option value="311">Serrana</option>
+<option value="312">Sert&#227;ozinho</option>
+<option value="613">Sete Barras</option>
+<option value="266">Sever&#237;nia</option>
+<option value="45">Silveiras</option>
+<option value="168">Socorro</option>
+<option value="643">Sorocaba</option>
+<option value="356">Sud Menucci</option>
+<option value="222">Sumar&#233;</option>
+<option value="321">Suzan&#225;polis</option>
+<option value="69">Suzano</option>
+<option value="372">Tabapu&#227;</option>
+<option value="250">Tabatinga</option>
+<option value="12">Tabo&#227;o da Serra</option>
+<option value="560">Taciba</option>
+<option value="481">Tagua&#237;</option>
+<option value="230">Taia&#231;u</option>
+<option value="225">Taiuva</option>
+<option value="209">Tamba&#250;</option>
+<option value="405">Tanabi</option>
+<option value="644">Tapira&#237;</option>
+<option value="210">Tapiratiba</option>
+<option value="256">Taquaral</option>
+<option value="240">Taquaritinga</option>
+<option value="482">Taquarituba</option>
+<option value="594">Taquariva&#237;</option>
+<option value="561">Taraba&#237;</option>
+<option value="461">Tarum&#227;</option>
+<option value="620">Tatu&#237;</option>
+<option value="78">Taubat&#233;</option>
+<option value="483">Tejup&#225;</option>
+<option value="543">Teodoro Sampaio</option>
+<option value="257">Terra Roxa</option>
+<option value="628">Tiet&#234;</option>
+<option value="475">Timburi</option>
+<option value="96">Torre de Pedra</option>
+<option value="138">Torrinha</option>
+<option value="251">Trabiju</option>
+<option value="79">Trememb&#233;</option>
+<option value="415">Tr&#234;s Fronteiras</option>
+<option value="169">Tuiuti</option>
+<option value="491">Tup&#227;</option>
+<option value="523">Tupi Paulista</option>
+<option value="331">Turiuba</option>
+<option value="396">Turmalina</option>
+<option value="448">Ubarana</option>
+<option value="36">Ubatuba</option>
+<option value="157">Ubirajara</option>
+<option value="449">Uch&#244;a</option>
+<option value="406">Uni&#227;o Paulista</option>
+<option value="397">Ur&#226;nia</option>
+<option value="158">Uru</option>
+<option value="373">Urup&#234;s</option>
+<option value="427">Valentim Gentil</option>
+<option value="223">Valinhos</option>
+<option value="357">Valpara&#237;so</option>
+<option value="176">Vargem</option>
+<option value="200">Vargem Grande do Sul</option>
+<option value="13">Vargem Grande Paulista</option>
+<option value="595">V&#225;rzea Paulista</option>
+<option value="505">Vera Cruz</option>
+<option value="224">Vinhedo</option>
+<option value="258">Viradouro</option>
+<option value="231">Vista Alegre do Alto</option>
+<option value="398">Vit&#243;ria Brasil</option>
+<option value="645">Votorantim</option>
+<option value="428">Votuporanga</option>
+<option value="332">Zacarias</option>
+</select>
+    </p>
+    <p class="nomecampo">
+        <label for="Municipio_Partido_Pref">Partido Prefeito</label>
+    </p>
+    <p class="campo">
+        <select class="input-mediumSelect select" data-val="true" data-val-required="Partido é obrigatório" id="Municipio_Partido_Pref" name="Municipio.Partido_Pref"><option value="">--- Selecione ---</option>
+<option value="CIDADANIA">CIDADANIA</option>
+<option value="DEM">DEM</option>
+<option value="MDB">MDB</option>
+<option value="NOVO">NOVO</option>
+<option value="PATRIOTA">PATRIOTA</option>
+<option value="PCB">PCB</option>
+<option value="PCdoB">PCdoB</option>
+<option value="PCO">PCO</option>
+<option value="PDT">PDT</option>
+<option value="PEN">PEN</option>
+<option value="PHS">PHS</option>
+<option value="PL">PL</option>
+<option value="PMB">PMB</option>
+<option value="PMDB">PMDB</option>
+<option value="PMN">PMN</option>
+<option value="PODEMOS">PODEMOS</option>
+<option value="PP">PP</option>
+<option value="PPL">PPL</option>
+<option value="PPS">PPS</option>
+<option value="PR">PR</option>
+<option value="PRB">PRB</option>
+<option value="PROS">PROS</option>
+<option value="PRP">PRP</option>
+<option value="PRTB">PRTB</option>
+<option value="PSB">PSB</option>
+<option value="PSC">PSC</option>
+<option value="PSD">PSD</option>
+<option value="PSDB">PSDB</option>
+<option value="PSDC">PSDC</option>
+<option value="PSL">PSL</option>
+<option value="PSOL">PSOL</option>
+<option value="PSTU">PSTU</option>
+<option value="PT">PT</option>
+<option value="PTB">PTB</option>
+<option value="PTC">PTC</option>
+<option value="PTdoB">PTdoB</option>
+<option value="PTN">PTN</option>
+<option value="PV">PV</option>
+<option value="REDE">REDE</option>
+<option value="SD">SD</option>
+<option value="UB">UB</option>
+</select>
+    </p>
+<input id="Municipio_Status" name="Municipio.Status" type="hidden" value="" />    <p class="nomecampo">
+        <label for="Municipio_Prefeito">Prefeito *</label>
+    </p>
+    <p class="campo">
+        <input class="input input-xlarge" data-val="true" data-val-required="Prefeito é obrigatório" id="Municipio_Prefeito" maxlength="100" name="Municipio.Prefeito" type="text" value="" />
+    </p>
+    <p class="nomecampo">
+        <label for="Municipio_CPF_Pref">CPF Prefeito *</label>
+    </p>
+    <p class="campo">
+        <input class="cpf input" data-val="true" data-val-required="CPF Prefeito é obrigatório" id="Municipio_CPF_Pref" name="Municipio.CPF_Pref" type="text" value="" />
+    </p>
+    <p class="nomecampo">
+        <label for="Municipio_Email_Pref">Email *</label>
+    </p>
+    <p class="campo">
+        <input class="input input-xlarge" data-val="true" data-val-regex="The field Email * must match the regular expression &#39;^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$&#39;." data-val-regex-pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$" data-val-required="Email é obrigatório" id="Municipio_Email_Pref" maxlength="50" name="Municipio.Email_Pref" type="text" value="" />
+    </p>
+    <p class="campototal"></p>
+    <p class="nomecampo">
+        <label for="Municipio_DDD_Pref">DDD *</label>
+    </p>
+    <p class="campomini">
+        <input class="ddd input input-mini" data-val="true" data-val-required="DDD é obrigatório" id="Municipio_DDD_Pref" maxlength="2" name="Municipio.DDD_Pref" type="text" value="" />
+    </p>
+    <p class="camposemespaco">
+        <label for="Municipio_Telefone_Pref">Telefone *</label>
+    </p>
+    <p class="campopeq">
+        <input class="tele input removespecial number" data-val="true" data-val-required="Telefone é obrigatório" id="Municipio_Telefone_Pref" maxlength="9" name="Municipio.Telefone_Pref" type="text" value="" />
+    </p>
+    <p class="campomini"></p>
+    <p class="campo1percent"></p>
+    <p class="nomecampo">
+        <label for="Municipio_CEP_Pref">CEP *</label>
+    </p>
+    <p class="campo">
+        <input class="cep input" data-val="true" data-val-required="CEP Prefeitura é obrigatório" id="Municipio_CEP_Pref" maxlength="9" name="Municipio.CEP_Pref" type="text" value="" />
+    </p>
+    <p class="nomecampo">
+        <label for="Municipio_Endereco_Pref">Endere&#231;o *</label>
+    </p>
+    <p class="campo">
+        <input class="logradouro input input-xlarge" data-val="true" data-val-required="Endereço Prefeitura é obrigatório" id="Municipio_Endereco_Pref" maxlength="50" name="Municipio.Endereco_Pref" type="text" value="" />
+    </p>
+    <p class="nomecampo">
+        <label for="Municipio_nrEndereco_Pref">N&#250;mero *</label>
+    </p>
+    <p class="campopeq">
+        <input class="input" data-val="true" data-val-required="Número Endereço Prefeitura é obrigatório" id="Municipio_nrEndereco_Pref" maxlength="10" name="Municipio.nrEndereco_Pref" type="text" value="" />
+    </p>
+    <p class="nomecampo">
+        <label for="Municipio_Bairro_Pref">Bairro *</label>
+    </p>
+    <p class="campo">
+        <input class="bairro input input-xlarge" data-val="true" data-val-required="Bairro é obrigatório" id="Municipio_Bairro_Pref" maxlength="50" name="Municipio.Bairro_Pref" type="text" value="" />
+    </p>
+    <p class="nomecampo">
+        <label for="Municipio_Complemento_Pref">Complemento</label>
+    </p>
+    <p class="campo">
+        <input class="input" id="Municipio_Complemento_Pref" maxlength="50" name="Municipio.Complemento_Pref" type="text" value="" />
+    </p>
+    <div>
+        <p class="campototal" style="text-align:center"><label class="tit2">Gestor de Cadastro Municipal</label></p>
+    </div>
+    <p class="nomecampo">
+        <label for="Municipio_Secretario">Nome *</label>
+    </p>
+    <p class="campo">
+        <input class="input input-xlarge" data-val="true" data-val-required="Nome do gestor é obrigatório" id="Municipio_Secretario" maxlength="100" name="Municipio.Secretario" type="text" value="" />
+    </p>
+    <p class="nomecampo">
+        <label for="Municipio_CPF_Secr">CPF *</label>
+    </p>
+    <p class="campo">
+        <input class="cpf input" data-val="true" data-val-required="CPF é obrigatório" id="Municipio_CPF_Secr" maxlength="15" name="Municipio.CPF_Secr" type="text" value="" />
+    </p>
+    <p class="nomecampo">
+        <label for="Municipio_Email_Secr">Email *</label>
+    </p>
+    <p class="campo">
+        <input class="input input-xlarge" data-val="true" data-val-regex="The field Email * must match the regular expression &#39;^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$&#39;." data-val-regex-pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$" data-val-required="Email é obrigatório" id="Municipio_Email_Secr" maxlength="50" name="Municipio.Email_Secr" type="text" value="" />
+    </p>
+    <p class="nomecampo">
+        <label for="Municipio_Funcao">Fun&#231;&#227;o *</label>
+    </p>
+    <p class="campo">
+        <input class="input" data-val="true" data-val-required="Função é obrigatório" id="Municipio_Funcao" maxlength="100" name="Municipio.Funcao" type="text" value="" />
+    </p>
+    <p class="nomecampo">
+        <label for="Municipio_DDD_Secr">DDD *</label>
+    </p>
+    <p class="campomini">
+        <input class="ddd input input-mini" data-val="true" data-val-required="DDD gestor é obrigatório" id="Municipio_DDD_Secr" maxlength="2" name="Municipio.DDD_Secr" type="text" value="" />
+    </p>
+    <p class="camposemespaco">
+        <label for="Municipio_Telefone_Secr">Telefone *</label>
+    </p>
+    <p class="campopeq">
+        <input class="tele input removespecial number" data-val="true" data-val-required="Telefone gestor é obrigatório" id="Municipio_Telefone_Secr" maxlength="20" name="Municipio.Telefone_Secr" type="text" value="" />
+    </p>
+    <p class="campomini"></p>
+    <p class="campo1percent"></p>
+    <p class="nomecampo">
+        <label for="Municipio_CEP_Secr">CEP *</label>
+    </p>
+    <p class="campo">
+        <input class="cep input" data-val="true" data-val-required="CEP gestor é obrigatório" id="Municipio_CEP_Secr" maxlength="9" name="Municipio.CEP_Secr" type="text" value="" />
+    </p>
+    <p class="nomecampo">
+        <label for="Municipio_Endereco_Secr">Endere&#231;o</label>
+    </p>
+    <p class="campo">
+        <input class="logradouro input input-xlarge" data-val="true" data-val-required="Endereço gestor é obrigatório" id="Municipio_Endereco_Secr" maxlength="50" name="Municipio.Endereco_Secr" type="text" value="" />
+    </p>
+    <p class="nomecampo">
+        <label for="Municipio_nrEndereco_Secr">N&#250;mero *</label>
+    </p>
+    <p class="campo">
+        <input class="input " data-val="true" data-val-required="Número Endereço gestor é obrigatório" id="Municipio_nrEndereco_Secr" maxlength="10" name="Municipio.nrEndereco_Secr" type="text" value="" />
+    </p>
+    <p class="nomecampo">
+        <label for="Municipio_Bairro_Secr">Bairro *</label>
+    </p>
+    <p class="campo">
+        <input class="bairro input input-xlarge" data-val="true" data-val-required="Bairro é obrigatório" id="Municipio_Bairro_Secr" maxlength="50" name="Municipio.Bairro_Secr" type="text" value="" />
+    </p>
+    <p class="nomecampo">
+        <label for="Municipio_Complemento_Secr">Complemento</label>
+    </p>
+    <p class="campo">
+        <input class="input" id="Municipio_Complemento_Secr" maxlength="50" name="Municipio.Complemento_Secr" type="text" value="" />
+    </p>
+    <p class="nomecampo">
+        <label for="Municipio_Senha" maxlength="255">Senha</label>
+    </p>
+    <p class="campo">
+        <input class="input" data-val="true" data-val-required="Senha é obrigatório" id="Municipio_Senha" maxlength="255" name="Municipio.Senha" type="password" />
+    </p>
+    <p class="nomecampo">
+        <label for="Municipio_ConfirmarSenha">Confirmar Senha</label>
+    </p>
+    <p class="campo">
+        <input class="input" data-val="true" data-val-required="Confirmar a senha é obrigatório" id="Municipio_ConfirmarSenha" maxlength="255" name="Municipio.ConfirmarSenha" type="password" />
+    </p>
+        <p class="campototal" style="text-align:center">
+            <a href="javascript:void(0)" onclick="$('#municipio_novo').submit();" class="button btn btn-info">Cadastrar</a>
+            <a href="/siccel/seguranca/usuarios" class="button btn btn-info">Cancelar</a>
+        </p>
+</form><p class="campototal" style="text-align:center">
+    Modelo do Ofício: <a href="http://siccel.selj.sp.gov.br/siccel/modelos/oficio" target="_black"><b> Clique Aqui </b></a>
+</p>
+
+
+<style>
+    .tit2 {
+        color: #034ea2;
+        font: 1.7em Arial;
+        border-bottom: 1px solid #034ea2;
+        margin-bottom: 20px;
+        font-weight: bold;
+        font-style: normal;
+    }
+</style>
+
+
+        </div>
+        <!-- fim content -->
+        <!-- Rodapé -->
+        <footer>
+            <p>
+                Secretaria de Esportes - Pra&ccedil;a Ant&ocirc;nio Prado, n&ordm; 9&nbsp;            CEP: 01010-010 - S&atilde;o Paulo/SP - PABX: (11) 3241-5822  ( SELJ 10.200.2.221 - VS 5.38)
+            </p>
+        </footer>
+
+    </div>
+    <!-- Fim do id global -->
+    
+    <script src="/siccel/Scripts/jquery.unobtrusive-ajax.js"></script>
+<script src="/siccel/Scripts/jquery.validate.js"></script>
+<script src="/siccel/Scripts/jquery.validate.unobtrusive.js"></script>
+
+    <script type="text/javascript">
+
+            $(document).ready(function () {
+
+                util.postForm('municipio_novo', function (result) {
+                    util.showDialog('Sucesso', 'Cadastrado com sucesso <br /> Será necessário enviar ofício cujo o modelo encontra-se no link <br /> <a target="_black" href="http://siccel.selj.sp.gov.br/siccel/modelos/oficio" target="_black">http://siccel.selj.sp.gov.br/siccel/modelos/oficio</a>', function () {
+                        document.location.href = util.domain;
+                    });
+                });
+
+                $('#Municipio_id').live('change', function () {
+                    if ($(this).val().isValid()) {
+                        util.post('/siccel/Municipio/IsValidMunicipio', { idMunicipio: $(this).val() }, function (data) {
+                            if (data.isValid()) {
+                                util.showDialog("Erro", data);
+                            }
+                        });
+                    }
+                });
+
+                $('#Municipio_CEP_Pref').live('blur', function () {
+                    util.findCEP($(this).val(), function (data) {
+                        $('#Municipio_Endereco_Pref').val(data.Logradouro);
+                        $('#Municipio_Bairro_Pref').val(data.Bairro);
+                    });
+                });
+
+                $('#Municipio_CEP_Secr').live('blur', function () {
+                    util.findCEP($(this).val(), function (data) {
+                        $('#Municipio_Endereco_Secr').val(data.Logradouro);
+                        $('#Municipio_Bairro_Secr').val(data.Bairro);
+                    });
+                });
+            });
+
+    </script>
+
+
+    <div class="hide">
+        <div id="dialog-message" title="Alerta">
+            <p></p>
+        </div>
+    </div>
+
+    <div class="loader hide">
+        <img src="/siccel/Content/Images/aguarde.gif" alt="" />
+    </div>
+
+    <div id="modal">
+    </div>
+
+    <script src="/siccel/Scripts/Crop/jquery.Jcrop.js"></script>
+<script src="/siccel/Scripts/Crop/jquery.color.js"></script>
+<script src="/siccel/Scripts/Crop/helperCrop.js"></script>
+
+
+</body>
+</html>
